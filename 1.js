@@ -53,6 +53,6 @@ function startTime()
 		var mm = prompt("请输入你的学号","学号");
 		if(name!='aaaa'){
 			x=document.getElementById("demo");  //查找元素
-			var a="进校："+name+'<br>'+mm+"，<br>白名单验证通过"
+			var a="进校："+name+'<br>-'+mm+"，<br>白名单验证通过"
 			x.innerHTML=a;    //改变内容
 		}
